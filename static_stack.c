@@ -124,7 +124,7 @@ Item pop (Stack *stack) {
 int Actions (Stack *stack) {
     Inst inst; //var de enum
     bool Pin1 = true; // var booleana
-    Item aux; // Nodo aux
+    Item aux; // Item aux
 
 
        for (int j=0; j<STACKSIZE; j++){
